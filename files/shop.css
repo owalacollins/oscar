@@ -1,0 +1,63 @@
+.hed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.search{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 4px 5px;
+}
+.submit{
+    border: none;
+    padding: 4px 5px;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+/*products styling starts here */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.gallary{
+    width: 160px;
+    background-color: rgb(204, 204, 204);
+   margin: 3px;
+   padding: 5px;
+}
+.gallary img{
+    width: 95%;
+    aspect-ratio: 10/9;
+    display: block;
+    margin: 0 auto;
+
+}
+.gallary .desc{
+    text-align: center;
+}
+.str{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+}
+.str img{
+    width: 20px;
+}
+.desc button{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    background-color: pink;
+    color: black;
+    padding: 5px 10px;
+    border: none;
+}
+
+/* products styling ends here */
